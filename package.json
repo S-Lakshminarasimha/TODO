@@ -5,7 +5,8 @@
   "main": "Express.js",
   "scripts": {
     "sass-watch": "sass --no-source-map --watch assets/scss/:assets/css",
-    "start": "netlify-lambda serve src"
+    "start": "netlify-lambda serve src",
+    "build": "netlify-lambda build src"
   },
   "author": "Lakshmi Narasimha",
   "license": "ISC",

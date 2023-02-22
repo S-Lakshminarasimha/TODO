@@ -1,0 +1,28 @@
+{
+  "name": "todo",
+  "version": "1.0.0",
+  "description": "TODO Application",
+  "main": "Express.js",
+  "scripts": {
+    "sass-watch": "sass --no-source-map --watch assets/scss/:assets/css",
+    "start": "netlify-lambda serve src",
+    "build": "netlify-lambda build src"
+  },
+  "author": "Lakshmi Narasimha",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "connect-mongo": "^4.6.0",
+    "ejs": "^3.1.8",
+    "express": "^4.18.2",
+    "express-session": "^1.17.3",
+    "mongoose": "^6.9.2",
+    "netlify-cli": "^13.0.0",
+    "netlify-lambda": "^2.0.16",
+    "nodemon": "^2.0.20",
+    "passport": "^0.6.0",
+    "passport-local": "^1.0.0",
+    "sass": "^1.58.3",
+    "serverless-http": "^3.1.1"
+  }
+}

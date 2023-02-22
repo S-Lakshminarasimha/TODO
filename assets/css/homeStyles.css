@@ -1,0 +1,42 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#wrapper {
+  height: 100vh;
+  width: 100%;
+  background-color: #EEEEEE;
+  display: flex;
+  justify-content: center;
+}
+
+#content {
+  margin-top: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+h1 {
+  font-size: 6rem;
+  margin-bottom: 100px;
+}
+
+a {
+  text-decoration: none;
+  padding: 30px 45px;
+  font-size: 1.5rem;
+  color: white;
+  background-color: black;
+  margin-left: 50px;
+}
+a:first-child {
+  margin-left: 0px;
+}
+a:hover {
+  background-color: inherit;
+  border: 2px solid black;
+  color: black;
+}
